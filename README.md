@@ -62,7 +62,6 @@ Note: The standard interpretation of the logical symbols - "∨", "∧", "→", 
   T        T        T        T              F
 (d) is an tautology 
   ```
-	
 2. A _literal_ is an atomic formula or the negation of an atomic formula. We say a formula is in _conjunctive normal form_ (CNF) if it is the conjunction of the disjunction of literals. Find propositional logic formulas in CNF equivalent to each of the following:
   ```
   (a) (A→B)→C
@@ -70,18 +69,13 @@ Note: The standard interpretation of the logical symbols - "∨", "∧", "→", 
   (b) (A→(B∨C))∨(C→¬A)
   (c) (¬A∧¬B∧C)∨(¬A∧¬C)∨(B∧C)∨A 
   ```
-  
 3. Let V be the vocabulary of first-order logic consisting of a binary relation P and a unary relation F. Interpret P(x,y) as “x is a parent of y” and F(x) as “x is female.” Where possible define the following formulas in this vocabulary; where not possible, explain why: 
   
   ```
   (a)  B(x,y) that says that x is a brother of y 
-Answer: This is possible because the formula is a binary relation  
   (b)  A(x,y) that says that x is an aunt of y  
-Answer: Possible because the formula is only an binary relation
   (c)  C(x,y) that says that x and y are cousins 
-Answer:Possible because the formula is it an binary relation 
   (d)  O(x) that says that x is an only child
-Answer:possible because the formula its only a unary relation  
   (e)  T(x) that says that x has exactly two brothers 
 Answer:Not possible because the formula only a unary relation
 
@@ -90,13 +84,9 @@ Answer:Not possible because the formula only a unary relation
 4. Let V be a vocabulary of the attribute (concept) language with complements (ALC) consisting of a role name "parent_of" and a concept name "Male". Interpret parent_of as "x is a parent of y" and M as "x is male". Where possible define the following formulas in this vocabulary; where not possible, explain why: 
   ```
   (a)  B that says that x is a brother of y
-  Answer:Possible because the binary relation allows the relationship   
   (b)  A that says that x is an aunt of y
-  Answer:Possible because the binary relation allows the relationship   
   (c)  C that says that x and y are cousins
-  Answer:Possible because the binary relation allows the relationship   
   (d)  O that says that x is an only child 
-  Answer:Possible because the formula O states there X is the parent of x 
   (e)  T that says that x has exactly two brothers 
   Answer:Not possible 
   ```
@@ -113,8 +103,7 @@ Answer:Not possible because the formula only a unary relation
 ```
 ∀x∃y∀z(R(x,y) ∧ R(x,z) ∧ R(y,z))
 ∃x∀y∃z(R(x,y) ∧ R(x,z) ∧ R(y,z))
-```
-	
+```	
 8. Using an online tableau proof generator - such as the one found here `https://www.umsu.de/trees/` - provide tree proofs of the following entailments, which are known as the De Morgan's laws:
   ```
          (a) ∀x∀y(¬(Px ∧ Qx) → (¬Px ∨ ¬Qx))
@@ -136,8 +125,8 @@ Answer:Not possible because the formula only a unary relation
 3.       ¬(¬(Pa ∨ Qa) → (¬Pa ∧ ¬Qa))(2)
 4.               ¬(Pa ∨ Qa)         (3)
 5.              ¬(¬Pa ∧ ¬Qa)        (3)
-6.                  ¬Pa(4)
-7.                  ¬Qa(4)
+6.                  ¬Pa		    (4)
+7.                  ¬Qa	            (4)
 
 10.     Pa(7)                      Qa(8)
          x                          x
@@ -163,7 +152,6 @@ Answer:Not possible because the formula only a unary relation
 8.                    ¬Qa           (4)
 9.      Pa(6)                    Qa(6)
           x                        x
-10.
 ```
 9. Using a natural deduction proof generator - such as the one found here `https://proofs.openlogicproject.org/` - provide natural deduction proofs for each of De Morgan's laws. 
 
