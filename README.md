@@ -53,12 +53,12 @@ Note: The standard interpretation of the logical symbols - "∨", "∧", "→", 
   F        T        T        F              T
   F        T        T        T              T   
   T        F        F        F              F
-  T        F        F        T              f
-  T        F        T        F              F
+  T        F        F        T              F
+  T        F        T        F              T
   T        F        T        T              T
-  T        T        F        F              t
-  T        T        F        T              T
-  T        T        T        F              f
+  T        T        F        F              F
+  T        T        F        T              F
+  T        T        T        F              T
   T        T        T        T              F
 (d) is an tautology 
   ```
